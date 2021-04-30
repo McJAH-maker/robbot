@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/main"
+      android:layout_width="500dp"
+      android:layout_height="500dp"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:rotation="360">
+
+    <EditText
+          android:id="@+id/textToSpeech"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Type Text to Speak"
+          android:textColorHint="@android:color/darker_gray"
+          android:textSize="18sp"
+          android:translationY="-100dp"/>
+
+    <Button
+          android:id="@+id/btnSpeak"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="8dp"
+          android:translationX="200dp"/>
+
+    <Button
+          android:id="@+id/btSpeak"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="8dp"
+          android:onClick="speakOut"/>
+
+    <Button
+          android:id="@+id/Speak"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="8dp"
+          android:onClick="animat"
+          android:translationY="150dp"/>
+
+    <Button
+          android:id="@+id/Speak"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="8dp"
+          android:onClick="animat_right"
+          android:translationY="150dp"
+          android:translationX="200dp"/>
+
+    <Button
+          android:id="@+id/peak"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:padding="8dp"
+          android:onClick="animat_off"
+          android:translationY="150dp"
+          android:translationX="100dp"/>
+
+</RelativeLayout>
